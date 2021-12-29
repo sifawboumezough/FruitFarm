@@ -12,7 +12,7 @@ html {
   } 
   
    body {
-    height: 2800px;
+    height: 2660px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -62,7 +62,6 @@ html {
 
 
   header{
-    
     top :0; left:0; right:0;
     z-index: 1000;
     align-items: center;
@@ -72,29 +71,23 @@ html {
     padding: 15px 0px;
     height:60px;
   }
-  /*
-  header.icons a {
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-  }
- 
- header.header-icons a:hover {
-    color: #F28123;
-  }
-  */
+
 
   .header-icons a {
     color: #fff;
     display: inline-block;
     padding: 10px;
   }
-
+  header.icons a {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
   
   .logo img {
     float: left;
     max-width: 150px;
-    margin:50px;
+    margin-left:50px;
     align-items: center;
  }
  
@@ -105,6 +98,7 @@ html {
     font-weight: bold;
     list-style: none;
     display: flex;
+    margin-left: 83%;
     justify-content: center;
     justify-content: space-between;
     column-gap: 0.5rem;
@@ -117,6 +111,7 @@ html {
   
   nav.navbar ul li {
     display: inline-block;
+    
   }
   
   nav.navbar ul li a {
@@ -127,7 +122,7 @@ html {
   }
   .icons{
     position: relative;
-    margin-left: 15%;
+    margin-left: 30%;
     color: #fff;
 
   }
@@ -269,11 +264,9 @@ a {
 .box1 img{
   width: 180px;
   height: 119px;
-  
   display: flex;
 
 }
-
 
 .slide {
   width: 100%;
@@ -311,20 +304,21 @@ a {
   /*Footer*/
   .footer-area {
     width: 101%;
-    height: 600px;
+    height: 500px;
     background-color: #051922;
     color: #fff;
     position: absolute;
-    margin-top: 306%;
-    margin-left: -1%;
-    border-bottom: 2px solid #F28123;
-   
+    margin-top: 301%;
+    margin-left: -1%; 
   }
+
   .row{
+  padding: 78px 0px 0px 0px;
   display: flex;
-   position: absolute;
-   left:100px;
-   padding: 100px 0;
+  position: absolute;
+  left:100px;
+   
+   
   }
 
 .footer-box p {
@@ -391,6 +385,185 @@ a {
   color: #051922;
 }
 
+h2.widget-title:after{
+  position: absolute;
+  left: 3.5%;
+  margin-top: 3%;
+  width: 20px;
+  height: 2px;
+  background-color: #F28123;
+  content:"";
+}
+
+h2.widget-title:after{
+  position: absolute;
+  left: 3.5%;
+  margin-top: 3%;
+  width: 20px;
+  height: 2px;
+  background-color: #F28123;
+  content:"";
+}
+
+h2.widget-title1:after{
+  position: absolute;
+  left: 34%;
+  margin-top: 3%;
+  width: 20px;
+  height: 2px;
+  background-color: #F28123;
+  content:"";
+}
+
+
+h2.widget-title2:after{
+  position: absolute;
+  left: 58%;
+  margin-top: 3%;
+  width: 20px;
+  height: 2px;
+  background-color: #F28123;
+  content:"";
+}
+
+h2.widget-title3:after{
+  position: absolute;
+  left: 72%;
+  margin-top: 3%;
+  width: 20px;
+  height: 2px;
+  background-color: #F28123;
+  content:"";
+}
+
+.footer-box.subscribe form input[type=email] {
+  border: none;
+  background-color: #012738;
+  width: 48%;
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #fff;
+}
+
+.footer-box.subscribe form button {
+  width: 17%;
+  border: none;
+  background-color: #012738;
+  color: #F28123;
+  padding: 14px 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+}
+
+.footer-box.subscribe form button:focus {
+  outline: none;
+}
+
+
+.footer-box p {
+  color: #fff;
+  opacity: 0.7;
+  line-height: 1.8;
+}
+
+.footer-box ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-box ul li {
+  opacity: 0.7;
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
+.footer-box ul li:last-child {
+  margin-bottom: 0;
+}
+
+.copyright {
+  width: 101%;
+  height: 87px;
+  position: absolute;
+  margin-top: 338.5%;
+  margin-left: -1%;
+  background-color: #051922;
+  border-top: 1px solid #232a35;
+}
+
+.copyright p {
+  width: 100%;
+  color: #fff;
+  opacity: 0.7;
+  padding: 12px 0px;
+  font-size: 15px;
+  margin-top: -21%;
+  margin-left: 30%;
+ 
+}
+.col-lg-6 p a {
+  color: #F28123;
+  opacity: 100%;
+
+}
+.social-icons{
+  width: 851px;
+  height: 87px;
+  text-align: right;
+  margin-top: -8%;
+}
+
+.copyright a {
+ color: #fff;
+ opacity: 0.7;
+ font-weight: 700;
+}
+
+  
+ .copyright a:hover {
+  color: #f59d53;
+} 
+
+
+
+.social-icons ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social-icons ul li a {
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.7;
+  padding: 16px 10px;
+  display: block;
+
+}
+
+.social-icons ul li:hover a {
+  color: #F28123;
+}
+
+.social-icons ul li a {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+ul.social-link-team li a {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+ul.social-link-team li a:hover {
+  background-color: #051922;
+  color: #F28123;
+  
+}
 
 
 
@@ -399,121 +572,17 @@ a {
 
 
 
+
+
+
+
   
 
 
 
   
-   /* 
   
-  .footer-box p {
-    color: #fff;
-    opacity: 0.7;
-    line-height: 1.8;
-  }
   
-  .footer-box ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .footer-box ul li {
-    opacity: 0.7;
-    margin-bottom: 10px;
-    line-height: 1.8;
-  }
-  
-  .footer-box ul li:last-child {
-    margin-bottom: 0;
-  }
-  
-  .footer-box.subscribe form input[type=email] {
-    border: none;
-    background-color: #012738;
-    width: 78%;
-    padding: 15px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    color: #fff;
-  }
-  
-  .footer-box.subscribe form button {
-    width: 20%;
-    border: none;
-    background-color: #012738;
-    color: #F28123;
-    padding: 14px 0;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    cursor: pointer;
-  }
-  
-  .footer-box.subscribe form button:focus {
-    outline: none;
-  }
-  
-  .copyright {
-    background-color: #051922;
-    border-top: 1px solid #232a35;
-  }
-  
-  .copyright p {
-    margin: 0;
-    color: #fff;
-    opacity: 0.7;
-    padding: 16px 0;
-    font-size: 15px;
-  }
-  
-  .copyright a {
-    color: #F28123;
-    font-weight: 700;
-  }
-  
-  .copyright a:hover {
-    color: #f59d53;
-  }
-  
-  .social-icons ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .social-icons ul li {
-    display: inline-block;
-  }
-  
-  .social-icons ul li a {
-    font-size: 16px;
-    color: #fff;
-    opacity: 0.7;
-    padding: 16px 10px;
-    display: block;
-  }
-  
-  .footer-box ul li a {
-    color: #fff;
-  }
-  
-  .footer-box.pages ul li {
-    position: relative;
-    padding-left: 20px;
-  }
-  
-  .footer-box.pages ul li:before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: #F28123;
-  }
-   */
-
-
  
 
 
